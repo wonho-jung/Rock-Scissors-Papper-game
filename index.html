@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+
+  <!-- 
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again -->
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;
+      margin-top:  100px;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="RPS">
+  <h2>ROCK</h2>
+  <h2>PAPER</h2>
+  <h2>SCISSORS</h2>
+  </div>
+  <div class="score-box">
+  <p style="text-align: center;">Score</p>
+  <h1><small>YOU</small><span class="user">00</span>:<span class="computer">00</span><small>COM</small> </h1>
+  </div>
+</header>
+
+<div class="result">
+  <div class="result-display">
+    <div class="result-user"></div>
+    <div class="result-com"></div>
+  </div>
+  <div class="result-text">
+    <div class="result-h3">
+      <h3 class="result-userpick">You Picked</h3>
+      <h3 class="result-compick">The house Picked</h3>
+   </div>
+      <h2></h2>
+      <button class="play-again">PLAY AGAIN?</button>
+   </div>
+</div>
+
+<div class="output-rule">
+    <h2>Rule</h2>
+    <img class="pic-rule" src="images/image-rules.svg" alt="#">
+    <br>
+    <button class="close"><img src="images/icon-close.svg" alt="#"></button>
+</div>
+
+<section>
+  <div class="images">
+    <div class="f-row">
+
+      <div class="paper-box">
+         <div class="bg-white">
+            <img class="paper" src="images/icon-paper.svg" alt="paper">
+         </div>
+      </div>
+
+      <div class="scissors-box">
+        <div class="bg-white">
+          <img class="scissors" src="images/icon-scissors.svg" alt="scissors">
+        </div>
+      </div>
+    </div>
+
+    <div class="s-row">
+
+      <div class="rock-box">
+        <div class="bg-white-r">
+          <img class="rock" src="images/icon-rock.svg" alt="rock">
+        </div>
+      </div>
+
+    </div>
+    </div>
+</section>
+
+<div class="rule">
+  <button class="rules-btn">Rules</button>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Won.9</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
